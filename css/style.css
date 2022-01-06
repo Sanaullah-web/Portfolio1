@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 70%;
+    margin: 15px auto 135px;
+    overflow: hidden;
+}
+header img{
+    float: left;
+    margin-right: 25px;
+    width: 5%;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+header nav{   
+    float: left;
+    overflow: hidden;
+    color: #3B3850;
+}
+main .button{
+    float: left;
+    margin: 100px 0px;
+}
+.button{
+    float: right;
+    padding: 15px;
+    background-color: #FF6162;
+    border: 0px;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+header nav ul{    
+    text-transform: capitalize;
+}
+header nav ul li{    
+    float: left;
+    list-style: none;
+    padding: 15px;
+    font-size: larger;
+}
+main{
+   width: 70%;
+   margin: 40px auto 100px;
+   overflow: hidden;
+}
+main img{
+    float: right;
+    width: 50%;
+    border-radius: 10px;
+}
+main .text{
+    float: left;
+    width: 48%;
+    text-transform: capitalize;
+}
+span{
+    color: #FF6162;
+}
+main .text h1{
+    padding: 20px 0px;
+    font-size: 40px;
+    color: #292640;
+}
+main .text p{
+    padding: 5px 0px 10px;
+    font-size: 15px;
+    color: #012c2c;
+    font-style: italic;
+}
+main .text img{
+    width: 58px;
+    float: left;
+    padding: 20px 0px;
+}
+.me{
+    /* background-color: aquamarine; */
+    width: auto;
+    overflow: hidden;
+    height: 500px;
+    margin-bottom: 100px;
+}
+.me img{
+    width: 350px;
+    float: left;
+    margin: 20px 60px 0px 200px;
+}
+.me .about{
+    float: right;
+}
+.me .about h2{
+
+color: #521cbc;
+
+text-align: left;
+
+margin: 55px 0px 10px;
+}
+.me .about p{
+    
+text-align: left;
+    
+padding: 15px 50px 50px 0px;
+}
+.me .about .button{float: left;margin: 100px 0px;}
+section{
+    width: 30%;
+    text-align: center;
+    margin: 0px auto 20px;
+}
+section h2{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #292640;
+}
+section p{
+    font-size: 15px;
+    color: #890c55;
+    font-style: oblique;
+    /* padding: 50px 50px 50px 0px; */
+}
+.image{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    font-weight: bold;
+    color: #4F5355;
+    margin-bottom: 200px;
+}
+.image .img1{   
+    width: 24%;
+    float: left;
+}
+.image .img2{   
+    width: 24%;
+    float: left;
+    margin-left: 15px;
+}
+.image .img3{   
+    width: 24%;
+    float: left;
+    margin-left: 15px;  
+}
+.image .img4{   
+    width: 24%;
+    float: right;
+}
+.image .img1 img, .image .img2 img, .image .img3 img, .image .img4 img{   
+    width: 100%;
+}
+.image .img1 caption, .image .img2 caption, .image .img3 caption, .image .img4 caption{
+    text-align: center;
+}
+.feature{
+
+width: 75%;
+
+margin: auto;
+
+overflow: hidden;
+
+text-align: center;
+
+height: 525px;
+
+/* margin-bottom: 7px; */
+}
+.feature h3{
+    
+padding: 5px;
+    
+/* height: 20px; */
+    
+font-size: 45px;
+    
+margin: 10px;
+    
+color: #292640;
+}
+.feature p{
+    
+/* font-style: normal; */
+    
+padding-bottom: 20px;
+    
+/* color: #232324; */
+    
+height: 20px;
+    
+font-style: oblique;
+    
+color: #012c2c;
+}
+.feature .f1{
+    float: left;
+    width: 300px;
+    background-color: #F3F3F3;
+    padding: 10px;
+    height: 200px;
+    border-radius: 10px;
+}
+.feature .f2{
+    float: left;
+    width: 300px;
+    background-color: #f7c7c7;
+    padding: 10px;
+    height: 200px;
+    margin-left: 26px;
+    border-radius: 10px;
+}
+.feature .f3{
+    float: right;
+    width: 300px;
+    background-color: #95fbff54;
+    padding: 10px;
+    height: 200px;
+    border-radius: 10px;
+}
+.feature .f1 img, .feature .f2 img, .feature .f3 img, .feature .f4 img, .feature .f5 img, .feature .f6 img{
+    width: 33%;
+}
+.feature .f1 h4, .feature .f2 h4, .feature .f3 h4, .feature .f4 h4, .feature .f5 h4, .feature .f6 h4{
+    color: #000000;
+    margin: 10px;
+}
+.feature .f1 p, .feature .f2 p, .feature .f3 p, .feature .f4 p, .feature .f5 p, .feature .f6 p{
+    color: #012c2c;
+}
+footer{
+    background-color: #292640;
+    height: 200px;
+}
+footer p{  
+    color: #FFFFFF;
+    padding: 35px 50px 5px;
+    text-align: center;
+    font-size: 30px;
+}
+footer button{
+    float: right;
+    padding: 15px;
+    background-color: #FF6162;
+    border: 0px;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin: 10px 46%;
+}
